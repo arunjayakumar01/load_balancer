@@ -1,4 +1,8 @@
 # Load Balancer
+<p align="center">
+  <img src="https://budstudio-assets.s3.ap-south-1.amazonaws.com/load-balancer-blue-icon-256x256-kmuykxnz.png" alt="Load Balancer">
+</p>
+
 
 ## Overview
 
