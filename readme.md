@@ -32,7 +32,7 @@ docker compose build
 docker compose up
 ```
 
-This command compiles the application. Compiled binaries are located at `target/x86_64-unknown-linux-gnu/release/load_balancer`.
+This  compiles the application. Compiled binaries are located at `target/x86_64-unknown-linux-gnu/release/load_balancer`.
 
 ### Running the Load Balancer
 
