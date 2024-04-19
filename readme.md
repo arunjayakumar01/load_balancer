@@ -1,7 +1,8 @@
 
 ## Load Balancer
 
-#### Configure Build Environment 
+
+### Configure Build Environment 
 
 
 ```bash
@@ -12,7 +13,7 @@ git clone <repo>
 docker compose build
 ```
 
-#### Create Build
+### Create Build
 
 ```bash
 
@@ -23,7 +24,7 @@ docker compose up
 > Build file location `target/x86_64-unknown-linux-gnu/debug/load_balancer`
 
 
-#### RUN 
+### RUN 
 
 - create file : hosts.txt , with upstream host details
 - Example hosts.txt
@@ -40,5 +41,14 @@ chmod +x load_balancer
 ```bash
 ./load_balacer
 ```
+> This will run load balancer on PORT 8080
 
-> Load balancer will run on PORT 8080
+```bash
+./load_balacer -p 6060 -h /path/to/hosts.txt -w 4
+```
+
+#### Arguments
+
+- -p/--port : PORT 
+- -h/--hosts : Path to upstream hosts
+- -w/--workers : Thread count

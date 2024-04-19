@@ -3,9 +3,11 @@ version: '3.8'
 services:
   rust_build:
     build: .
+    platform: "linux/amd64"
     environment:
       - RUST_LOG=debug  # Optional: Set this to configure logging level for Rust applications.
     restart: unless-stopped  # Optional: Ensures the container restarts if it exits.
     volumes:
       - .:/usr/src/myapp  # Mount the project directory inside the container for live updates.
-    command: 'cargo build --target x86_64-unknown-linux-gnu --release '  # Optional: Override the CMD defined in Dockerfile.
+#    command: 'cargo build --target x86_64-unknown-linux-gnu --release '
+    command: 'tail -f /dev/null'
