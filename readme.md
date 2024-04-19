@@ -72,3 +72,6 @@ Here are the available command-line arguments to customize the load balancer:
 | `-p`  | `--port`   | Port to listen on         | `8080`        |
 | `-h`  | `--hosts`  | Path to upstream hosts    | `./hosts.txt` |
 | `-w`  | `--workers`| Number of worker threads  | `4`           |
+
+
+> Build path : `target/x86_64-unknown-linux-gnu/release/load_balancer`
