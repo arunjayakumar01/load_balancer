@@ -49,6 +49,6 @@ chmod +x load_balancer
 
 #### Arguments
 
-- -p/--port : PORT 
-- -h/--hosts : Path to upstream hosts
-- -w/--workers : Thread count
+- -p --port : PORT (default : 8080)
+- -h --hosts : Path to upstream hosts (default : ./hosts.txt)
+- -w --workers : Thread count (default : 4)
