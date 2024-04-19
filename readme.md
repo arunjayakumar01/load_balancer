@@ -49,6 +49,8 @@ chmod +x load_balancer
 
 #### Arguments
 
-- -p --port : PORT (default : 8080)
-- -h --hosts : Path to upstream hosts (default : ./hosts.txt)
-- -w --workers : Thread count (default : 4)
+| Short | Long       | Description             | Default      |
+|-------|------------|-------------------------|--------------|
+| `-p`  | `--port`   | Port to listen on       | `8080`       |
+| `-h`  | `--hosts`  | Path to upstream hosts  | `./hosts.txt`|
+| `-w`  | `--workers`| Number of worker threads| `4`          |
