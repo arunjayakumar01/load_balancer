@@ -61,7 +61,7 @@ chmod +x load_balancer
 
 This command will start the load balancer on the default port (8080).
 
-4. **Customize Configuration:** Optionally, you can start the load balancer with custom settings:
+4. **Custom Configuration:** Optionally,  start the load balancer with custom configuration:
 
 ```bash
 ./load_balancer -p 6060 -h /path/to/hosts.txt -w 4
@@ -69,7 +69,6 @@ This command will start the load balancer on the default port (8080).
 
 ### Command-Line Arguments
 
-Here are the available command-line arguments to customize the load balancer:
 
 | Short | Long       | Description               | Default       |
 |-------|------------|---------------------------|---------------|
