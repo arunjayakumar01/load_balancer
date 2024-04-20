@@ -4,7 +4,7 @@
 </p>
 
 
-## Overview
+
 
 This Load Balancer distributes incoming traffic evenly across a set of servers using a `round-robin` algorithm.
 
